@@ -10,6 +10,8 @@ To accomplish that, IT's team have developed a simple web solution which is cons
 
 2) **Request form**: Because IT's team don't want to spend money with this application and also, because they have already Office 365 available for each user inside the institution, they decide to use O365 Forms service to provide that form whereby users will formally request to IT the spin-up of the environment.
 
+![Request form view](https://raw.githubusercontent.com/AzureForEducation/demo-itmarketplace/master/doc/images/request-form.PNG)
+
 3) **Form & SQL integration**: Once they decided to use Forms as part of this process, they choose to use O365 Flow to send out user's requests to an existing SQL database, to appropriately keep track of that requests.
 
 4) **Azure ARM Templates**: The environments itself are being packaged using Azure Resource Manager Templates. This way, IT can easily adjust the sizing, capacity and availability rules for each environment being wrapped.
