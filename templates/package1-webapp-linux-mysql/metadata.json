@@ -1,0 +1,9 @@
+{
+  "$schema": "https://aka.ms/azure-quickstart-templates-metadata-schema#",
+  "type": "QuickStart",
+  "itemDisplayName": "Linux-based Web App with PHP 7 and MySQL Database",
+  "description": "This is a package who creates a single environment with 1 web app seating on a existing hosting plan and 1 MYSQL database.",
+  "summary": "This is a package who creates a single environment with 1 web app seating on a existing hosting plan and 1 MYSQL database.",
+  "githubUsername": "fabriciosanchez",
+  "dateUpdated": "2018-09-27"
+}
