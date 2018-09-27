@@ -20,6 +20,18 @@ To accomplish that, IT's team have developed a simple web solution which is cons
 
 4) **Azure ARM Templates**: The environments itself are being packaged using Azure Resource Manager Templates. This way, IT can easily adjust the sizing, capacity and availability rules for each environment being wrapped.
 
+## How it works?
+
+* IT's customer (researcher, marketing professional, teacher, and so forth) do visit the institution's intranet and get access to the webpage where the packaged environments are being showed.
+
+* He/she pick up the environment which best support his/her needs. By clicking in "Request this environment", the webpage redirects the user to the O365 form whereby requests can be made.
+
+* User fill the form out and send that info to the IT's admin.
+
+* ID's admin is automatically notified by the system and then, after do some internal validations with the related area, execute out the ARM template who delivers the requested environment on Azure.
+
+* When it is done, IT's administrator sends a mail to the requestor informing connections strings and further data regarding that environment.
+
 This way, the final architecture for that solution would be that one presented by the image below.
 
 <img src="https://raw.githubusercontent.com/AzureForEducation/demo-itmarketplace/master/doc/images/demo-itmarketplace-arch.PNG">
