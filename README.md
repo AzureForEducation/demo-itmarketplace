@@ -24,13 +24,13 @@ To accomplish that, IT's team have developed a simple web solution which is cons
 
 * IT's customer (researcher, marketing professional, teacher, and so forth) do visit the institution's intranet and get access to the webpage where the packaged environments are being showed.
 
-* He/she pick up the environment which best support his/her needs. By clicking in "Request this environment", the webpage redirects the user to the O365 form whereby requests can be made.
+* He/she pick up the environment which best support his/her needs. By clicking in "Request this environment". So, the webpage redirects the user to the O365 form whereby requests can be made.
 
-* User fill the form out and send that info to the IT's admin.
+* User then fill out the form and send that info to the IT's admin by clicking in "Submit".
 
-* ID's admin is automatically notified by the system and then, after do some internal validations with the related area, execute out the ARM template who delivers the requested environment on Azure.
+* ID's admin is automatically notified by the system about the new request and then, after do some internal validations with the related area, executes out the ARM template who delivers the requested environment on Azure.
 
-* When it is done, IT's administrator sends a mail to the requestor informing connections strings and further data regarding that environment.
+* When it is done, IT's administrator sends a mail to the requestor informing connections strings and further info regarding that environment.
 
 This way, the final architecture for that solution would be that one presented by the image below.
 
