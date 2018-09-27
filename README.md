@@ -22,11 +22,11 @@ To accomplish that, IT's team have developed a simple web solution which is cons
 
 ## How it works?
 
-* IT's customer (researcher, marketing professional, teacher, and so forth) do visit the institution's intranet and get access to the webpage where the packaged environments are being showed.
+* IT's customer (researcher, marketing professional, teacher, and so forth) do visit the institution's intranet and get access to the webpage where the packaged environments are being shown.
 
-* He/she pick up the environment which best support his/her needs. By clicking in "Request this environment". So, the webpage redirects the user to the O365 form whereby requests can be made.
+* He/she picks up the environment which best supports his/her needs. By clicking on "Request this environment". So, the webpage redirects the user to the O365 form whereby requests can be made.
 
-* User then fill out the form and send that info to the IT's admin by clicking in "Submit".
+* User then fill out the form and send that info to the IT's admin by clicking on "Submit".
 
 * ID's admin is automatically notified by the system about the new request and then, after do some internal validations with the related area, executes out the ARM template who delivers the requested environment on Azure.
 
@@ -35,3 +35,9 @@ To accomplish that, IT's team have developed a simple web solution which is cons
 This way, the final architecture for that solution would be that one presented by the image below.
 
 <img src="https://raw.githubusercontent.com/AzureForEducation/demo-itmarketplace/master/doc/images/demo-itmarketplace-arch.PNG">
+
+## ARM Templates
+
+For this demo we're offering the following packages:
+
+1) **Linux-based Web App with MySQL Server**: When executed, this ARM Template will create on Azure two primary elements: 1 Web App shared with 1.75 GB RAM and 10 GB of local storage; 1 MySQL database with 5 GB of storage. This database will not be dedicated, and the performance levels will be shared between the other databases existing on that server.
