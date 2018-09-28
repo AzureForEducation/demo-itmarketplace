@@ -48,3 +48,6 @@ For this demo we're offering the following packages:
 
 ## How to make this work
 
+In order to reproduce this demonstration to your customers, partners, and so forth, you should walk through the following:
+
+1) Navigate to the Azure Portal (https://portal.azure.com) and create a new resource group (suggestivelly called "ITMarketplace"). 
