@@ -137,4 +137,10 @@ In order to reproduce this demonstration to your customers, partners, and so for
 
     As result of this operation you should be able to see a new table called "Requests" at the left side of the editor, as you can see through the image below.
 
-    
+    <img src="https://raw.githubusercontent.com/AzureForEducation/demo-itmarketplace/master/doc/images/demo-itmarketplace-database-creation.PNG">
+
+8) Now we have both the form and the storage service to host the information sent through it. Now we need to create the connection between them and here is where O365 Flow is going to help us. We will create an automation to add into SQL database a new record every single time a new answer is sent through our form. Cool!
+
+    - Fortunately all you need to do is import a pre-built package for this operation. This package is available inside the zip package you downloaded and unziped earlier in this tutorial and its name is "FormsSQLServerIntegration".
+
+    - Go to O365 dashboard at Flow area and click at "Import" option, available on the top menu area.
