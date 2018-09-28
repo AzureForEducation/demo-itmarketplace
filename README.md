@@ -165,4 +165,6 @@ In order to reproduce this demonstration to your customers, partners, and so for
 
     The process is going to be exactly the same of before's step, meaning that you will import an integration package (NotifyITAzureAdmin) and do some final configurations. After the test, your Azure Admin's inbox should present out a message like that one shown by the image below.
 
-    
+    <img src="https://raw.githubusercontent.com/AzureForEducation/demo-itmarketplace/master/doc/images/demo-itmarketplace-notification-running.PNG">
+
+    That's it. Hope it helps!
