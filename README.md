@@ -1,6 +1,18 @@
 # Demo - IT Marketplace
 
+## What is this is about?
+
 "IT Marketplace" is an online repository developed by the Americas University's IT team in US and intend to act as a center of environments-ready repository in such way that IT's internal customers (mostly university departments its professionals) would be able to come in and pick up automatically environments for host web applications, environments for dev/test, and so forth by their own.
+
+## Why this demo is so cool?
+
+This demo was developed to give you an idea in how IT departments inside educational institutions can take advantage of Microsoft Azure and Office 365 services to optimize its operations, delivering fast, with high quality without loosing control both of the environment and related costs.
+
+## When you should present this out?
+
+This demo is ideal to be shown in the context of **IT transformation/optimization**. By raising this up, your customer will be able to understand how their IT would be empowered to quickly deliver more with less by using the cloud's power.
+
+## Internal view
 
 To accomplish that, IT's team have developed a simple web solution which is constituted by four main aspects:
 
@@ -48,8 +60,17 @@ For this demo we're offering the following packages:
 
 ## How to make this work
 
-In order to reproduce this demonstration to your customers, partners, and so forth, you should walk through the following:
+### Pre-requisites
+
+To accomplish the steps described in this demo, first you should have already settled:
+
+* A Azure Subscription with enough credits to afford it.
+* A Office 365 account with both Forms and Flow services accessible.
+
+### Deploying the demo
+
+In order to reproduce this demonstration to your customers, partners, and so forth, you should walk through the following steps:
 
 1) Navigate to the Azure Portal (https://portal.azure.com) and create a new resource group (suggestivelly called "ITMarketplace"). This resource group will host our entire solution. To see how to create a new resource group through the Azure Portal, please, follow up [this link](https://www.juniper.net/documentation/en_US/vsrx/topics/task/multi-task/security-vsrx-azure-marketplace-resource-group.html).
 
-2) 
+2) Once you have your
