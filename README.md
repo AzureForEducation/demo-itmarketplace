@@ -45,3 +45,6 @@ For this demo we're offering the following packages:
 2) **Wordpress site with Container Instances**: A ARM templae that creates a storage account, configures a File Share and installs a Wordpress and MySQL into a Azure Container Instance (ACI). Ideal scenario for dev/test.
 
 3) **Minecraft Server on a Ubuntu Virtual Machine**: This template deploys and sets up a customized Minecraft server on an Ubuntu Virtual Machine, with you as the operator. It also deploys a Storage Account, Virtual Network, Public IP addresses and a Network Interface. You can set common Minecraft server properties as parameters at deployment time. Once the deployment is successful you can connect to the DNS address of the VM with a Minecraft launcher. The following Minecraft server configuration parameters can be set at deployment time: Minecraft user name, difficulty, level-name, gamemode, white-list, enable-command-block, spawn-monsters, generate-structures, level-seed.
+
+## How to make this work
+
