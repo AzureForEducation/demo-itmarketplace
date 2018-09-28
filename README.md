@@ -158,3 +158,11 @@ In order to reproduce this demonstration to your customers, partners, and so for
     - Now, under "Related resources" area you will need to create two connections: one to the form itself and another one to the database. We've created both already so the only thing you need to do is go through each option there and add the configurations requested and, in the end, click in "Import". By doing this, you should have the connection between your Form and SQL Database established.
 
     - Finally, you can test the integration by using a fake data to it. At the Flow dashboard (inside your integration panel) just click at "Test" option and then, go to the form and fill it out with some fake data. You should be able to see something like the image below in your screen.
+
+    <img src="https://raw.githubusercontent.com/AzureForEducation/demo-itmarketplace/master/doc/images/demo-itmarketplace-integration-running.PNG">
+
+9) Another integration ahead. Now, the very last thing we need to do is to automatically send a message to the Azure's admin inside the IT informing that we have a new environment request and giving him/her the ability to deploy that environment directly from the email. Once again, Flow is going to help us.
+
+    The process is going to be exactly the same of before's step, meaning that you will import an integration package (NotifyITAzureAdmin) and do some final configurations. After the test, your Azure Admin's inbox should present out a message like that one shown by the image below.
+
+    
