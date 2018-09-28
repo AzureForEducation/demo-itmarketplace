@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/azure-quickstart-templates-metadata-schema#",
+  "type": "QuickStart",
+  "itemDisplayName": "Wordpress site with MySQL on top of Container Instances (ACI)",
+  "description": "This template creates a WordPress site on Azure Container Instance",
+  "summary": "Wordpress site with MySQL on top of Container Instances (ACI)",
+  "githubUsername": "fabriciosanchez",
+  "dateUpdated": "2018-09-28"
+}
+
+
