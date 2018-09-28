@@ -143,4 +143,18 @@ In order to reproduce this demonstration to your customers, partners, and so for
 
     - Fortunately all you need to do is import a pre-built package for this operation. This package is available inside the zip package you downloaded and unziped earlier in this tutorial and its name is "FormsSQLServerIntegration".
 
-    - Go to O365 dashboard at Flow area and click at "Import" option, available on the top menu area.
+    - Go to O365 dashboard at Flow area and click at "Import" option, available on the top menu area. 
+
+    - Then, select the "FormsSQLServerIntegration" file and upload it to Flow service.
+
+    - When it finish you will be presented to a screen pretty similar to that one presented by the image below.
+
+    <img src="https://raw.githubusercontent.com/AzureForEducation/demo-itmarketplace/master/doc/images/demo-itmarketplace-import-integration.PNG">
+
+    As you can see, there are 3 steps to be accomplished as follows:
+
+    - In the first option, click in "Create as new". A new window will opened. Just rename it or accept the current one the integration flow and click in "Save".
+
+    - Now, under "Related resources" area you will need to create two connections: one to the form itself and another one to the database. We've created both already so the only thing you need to do is go through each option there and add the configurations requested and, in the end, click in "Import". By doing this, you should have the connection between your Form and SQL Database established.
+
+    - Finally, you can test the integration by using a fake data to it. At the Flow dashboard (inside your integration panel) just click at "Test" option and then, go to the form and fill it out with some fake data. You should be able to see something like the image below in your screen.
