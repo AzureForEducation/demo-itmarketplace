@@ -103,4 +103,40 @@ In order to reproduce this demonstration to your customers, partners, and so for
 
     <img src="https://raw.githubusercontent.com/AzureForEducation/demo-itmarketplace/master/doc/images/demo-itmarketplace-frontend-up-running.PNG">
 
-6)
+6) Now we need to do some actions (three to exact) in Office 365. First, we need to create the form whereby IT's customers will land their requests regarding the environments. To accomplish that, just navigate to Forms service on O365 console and create a new one with the following fields:
+
+    - **Request date**: date format
+    - **Department you belongs to**: options list in dropdown format
+    - **Your manager's email**: text format
+    - **Template selected**: options list (values: Linux-based Web App with MySQL | Wordpress site with Container Instance (ACI) | Minecraft server on an Ubuntu Virtual Machine) in dropdown format
+    - **Purpose iof this environment**: Long text format
+
+    Some additional configurations to that form are necessary to garantee that only authorized people will be able to fullfill it, as you can see below.
+
+    <img src="https://raw.githubusercontent.com/AzureForEducation/demo-itmarketplace/master/doc/images/demo-itmarketplace-form.PNG">
+
+7) Now we need to create two automatizations to conclude the process. To do that, we'll use a very useful service available on O365 (Flow) in partnership with another one available on Azure (SQL Azure Databases). Instead to use spreadsheets to store our users requests, we're going to store that data in a Azure SQL Database so we can safely track everything.
+
+    Considering we have the form already in place, what we need to do next is to create our database in which the data will be stored in on Azure, right? Sugestivelly, I've created a database called "EnvRequests". Please, follow up [this tutorial](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-get-started-portal#create-a-sql-database) to create yours.
+
+    Now you should have the database set up. Its time to create a table inside it who will meet the form structure. To get that, on the Azure Portal, into the SQL Database's blade, on the left side, select the option "Query Editor (Preview)" then authenticate yourself into the server and then, copy, paste and run the the following code.
+
+    ```sql
+    CREATE TABLE [dbo].[Requests](
+	    [Id] [int] IDENTITY(1,1) NOT NULL,
+	    [RequestDate] [varchar](50) NOT NULL,
+	    [Department] [varchar](50) NOT NULL,
+	    [ManagerEmail] [varchar](250) NOT NULL,
+	    [Template] [varchar](250) NOT NULL,
+	    [Purpose] [text] NOT NULL,
+	    [Nome] [varchar](250) NOT NULL,
+	    [Date] [datetime] NOT NULL
+    ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+    GO
+    ```
+
+    As result of this operation you should be able to see a new table called "Requests" with its fields by executing the command line below.
+
+    ```sql
+    SELECT * FROM Requests
+    ``` 
