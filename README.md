@@ -76,11 +76,13 @@ In order to reproduce this demonstration to your customers, partners, and so for
 
 2) Once you have your resource group set up, you will need to create a new "Storage Account" into it. Please, keep in mind you need to create a storage account using the GPv2 tier. You can follow up [this tutorial](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&tabs=portal#create-a-storage-account-1) to accomplish that.
 
-3) Now, you we will publish the frontend application (the whereby our packaged environments are shown) to a new Storage Account's feature: Static Website. To get there, once in the main blade of Storage Account service, browse out to **"Static Website"** option menu, placed in the left. On the right side, click on "Enable". Then, type both the "Index document name" and "Error document path". In our case, these values would be as below.
+3) Now, you we will publish the frontend application (the whereby our packaged environments are shown) using a new Storage Account's feature: Static Website. But first, web need to enable the resource. To get there, once in the main blade of Storage Account service, browse out to **"Static Website"** option menu placed in the left. On the right side, click on "Enable". Then, type both the "Index document name" and "Error document path" as below.
 
     - Index document name: index.html
     - Error document path: error.html
 
-Click "Save" and that's it.
+    Click "Save" and that's it. Your storage account configuration meant to be something like the picture below.
 
-4) Considering you're already logged in
+    <img src="https://raw.githubusercontent.com/AzureForEducation/demo-itmarketplace/master/doc/images/demo-itmarketplace-enabling-static-website.PNG">
+
+4) Now we're ready to move the frontend application to our storage. To get there, execute the Azure Storage Explorer app in your machine. Under your in use subscription, select the storage account we just created and configured. Expand it out and select the "Blob Containers" option. Once again, expand it down. You should be able to see two itens: "$web" and "$logs". The one which we're interested is "$web" because we're going to move our frontend application to it.
