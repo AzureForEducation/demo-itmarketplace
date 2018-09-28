@@ -135,8 +135,6 @@ In order to reproduce this demonstration to your customers, partners, and so for
     GO
     ```
 
-    As result of this operation you should be able to see a new table called "Requests" with its fields by executing the command line below.
+    As result of this operation you should be able to see a new table called "Requests" at the left side of the editor, as you can see through the image below.
 
-    ```sql
-    SELECT * FROM Requests
-    ``` 
+    
