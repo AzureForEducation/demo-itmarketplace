@@ -92,5 +92,9 @@ In order to reproduce this demonstration to your customers, partners, and so for
 5) Now we're ready to move the frontend application to our storage. To get there, execute the Azure Storage Explorer app in your machine. Under your in use subscription, select the storage account we just created and configured. Expand it out and select the "Blob Containers" option. Once again, expand it down. You should be able to see two itens: "$web" and "$logs". The one which we're interested is "$web" because we're going to move our frontend application to it.
 
     Just select "Upload files" on Azure Storage Explorer's menu and select all frontend application files to be uploaded, as you can see through the image below.
+
+     <img src="https://raw.githubusercontent.com/AzureForEducation/demo-itmarketplace/master/doc/images/demo-itmarketplace-uploading-website.png">
+
+    At the end, your $web container should be pretty similar to the one presented by the image below.
+
     
-     
