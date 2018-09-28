@@ -66,6 +66,7 @@ To accomplish the steps described in this demo, first you should have already se
 
 * A Azure Subscription with enough credits to afford it.
 * A Office 365 account with both Forms and Flow services accessible.
+* Azure Storage Explorer installed and set up (including your login process). To get that, please, download it [here](https://azure.microsoft.com/en-us/features/storage-explorer/).
 
 ### Deploying the demo
 
@@ -73,4 +74,13 @@ In order to reproduce this demonstration to your customers, partners, and so for
 
 1) Navigate to the Azure Portal (https://portal.azure.com) and create a new resource group (suggestivelly called "ITMarketplace"). This resource group will host our entire solution. To see how to create a new resource group through the Azure Portal, please, follow up [this link](https://www.juniper.net/documentation/en_US/vsrx/topics/task/multi-task/security-vsrx-azure-marketplace-resource-group.html).
 
-2) Once you have your
+2) Once you have your resource group set up, you will need to create a new "Storage Account" into it. Please, keep in mind you need to create a storage account using the GPv2 tier. You can follow up [this tutorial](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?toc=%2Fazure%2Fstorage%2Fblobs%2Ftoc.json&tabs=portal#create-a-storage-account-1) to accomplish that.
+
+3) Now, you we will publish the frontend application (the whereby our packaged environments are shown) to a new Storage Account's feature: Static Website. To get there, once in the main blade of Storage Account service, browse out to **"Static Website"** option menu, placed in the left. On the right side, click on "Enable". Then, type both the "Index document name" and "Error document path". In our case, these values would be as below.
+
+    - Index document name: index.html
+    - Error document path: error.html
+
+Click "Save" and that's it.
+
+4) Considering you're already logged in
