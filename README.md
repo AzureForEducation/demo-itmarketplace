@@ -101,4 +101,6 @@ In order to reproduce this demonstration to your customers, partners, and so for
 
     Now, test your frontend application. The url to do this is available on the storage account blade into the Azure Portal. It is similar (not equal) to this: "https://itmarketplacestorage.z22.web.core.windows.net/". The result should be the following.
 
-    
+    <img src="https://raw.githubusercontent.com/AzureForEducation/demo-itmarketplace/master/doc/images/demo-itmarketplace-frontend-up-running.PNG">
+
+6)
