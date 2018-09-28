@@ -167,4 +167,6 @@ In order to reproduce this demonstration to your customers, partners, and so for
 
     <img src="https://raw.githubusercontent.com/AzureForEducation/demo-itmarketplace/master/doc/images/demo-itmarketplace-notification-running.PNG">
 
+    <img src="https://raw.githubusercontent.com/AzureForEducation/demo-itmarketplace/master/doc/images/demo-itmarketplace-email-notification2.PNG">
+
     That's it. Hope it helps!
